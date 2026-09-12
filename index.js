@@ -47,24 +47,21 @@ document.body.innerHTML = `
     }
   </style>
 
-  <h1>🌲 BSA Facts</h1>
+  <h1>Programming Merit Badge</h1>
   <p>Click a button to learn more about BSA.</p>
 
   <div class="buttons">
-    <button id="historyButton">History</button>
-    <button id="missionButton">Mission</button>
-    <button id="scoutingButton">Scouting</button>
-    <button id="valuesButton">Values</button>
+    <button id="historyButton">HI</button>
+    <button id="missionButton">BYE</button>
   </div>
 
   <div id="factBox">Select a category to see a fact.</div>
 `;
 
 const facts = {
-  history: "BSA was founded in the United States in 1910.",
-  mission: "BSA helps young people build character, leadership, and citizenship skills.",
-  scouting: "Scouting encourages outdoor activities, teamwork, service, and personal growth.",
-  values: "Scouting values include being trustworthy, loyal, helpful, friendly, courteous, kind, and brave."
+  history: " HalloAlbanian: PërshëndetjeArabic: مرحبا (marhaban)Chinese (Mandarin): 你好 (nǐ hǎo)French: BonjourGerman: HalloItalian: CiaoJapanese: こんにちは (konnichiwa)Korean: 안녕하세요 (annyeonghaseyo)Spanish: Hola ",
+  mission: "BYE :0",
+ 
 };
 
 const factBox = document.getElementById("factBox");
