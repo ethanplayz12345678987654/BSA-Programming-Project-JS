@@ -54,12 +54,12 @@ document.body.innerHTML = `
     <button id="missionButton">BYE</button>
   </div>
 
-  <div id="factBox">Select a category to see a fact.</div>
+  <div id="factBox"></div>
 `;
 
 const facts = {
   history: "HalloAlbanian: Përshëndetje Arabic: مرحبا (marhaban) Chinese (Mandarin): 你好 (nǐ hǎo) French: Bonjour German: Hallo Italian: Ciao Japanese: こんにちは (konnichiwa) Korean: 안녕하세요 (annyeonghaseyo)",
-  mission: "BYE :0"
+  mission: "BYE :0 I DID THIS IN THE MIDDLE OF THE NIGHT"
 };
 
 const factBox = document.getElementById("factBox");
