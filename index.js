@@ -1,4 +1,3 @@
-```javascript
 document.body.innerHTML = `
   <style>
     body {
@@ -59,9 +58,8 @@ document.body.innerHTML = `
 `;
 
 const facts = {
-  history: " HalloAlbanian: PërshëndetjeArabic: مرحبا (marhaban)Chinese (Mandarin): 你好 (nǐ hǎo)French: BonjourGerman: HalloItalian: CiaoJapanese: こんにちは (konnichiwa)Korean: 안녕하세요 (annyeonghaseyo)Spanish: Hola ",
-  mission: "BYE :0",
- 
+  history: "HalloAlbanian: Përshëndetje Arabic: مرحبا (marhaban) Chinese (Mandarin): 你好 (nǐ hǎo) French: Bonjour German: Hallo Italian: Ciao Japanese: こんにちは (konnichiwa) Korean: 안녕하세요 (annyeonghaseyo)",
+  mission: "BYE :0"
 };
 
 const factBox = document.getElementById("factBox");
@@ -73,18 +71,3 @@ document.getElementById("historyButton").addEventListener("click", () => {
 document.getElementById("missionButton").addEventListener("click", () => {
   factBox.textContent = facts.mission;
 });
-
-document.getElementById("scoutingButton").addEventListener("click", () => {
-  factBox.textContent = facts.scouting;
-});
-
-document.getElementById("valuesButton").addEventListener("click", () => {
-  factBox.textContent = facts.values;
-});
-```
-
-Save it as **`script.js`** and connect it to an HTML file with:
-
-```html
-<script src="script.js"></script>
-```
